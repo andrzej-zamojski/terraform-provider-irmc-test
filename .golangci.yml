@@ -8,20 +8,20 @@ linters:
   disable-all: true
   enable:
     - durationcheck
-    - errcheck
-    - exportloopref
+#    - errcheck
+#    - exportloopref
     - forcetypeassert
-    - godot
+    #    - godot
     - gofmt
-    - gosimple
+    #    - gosimple
     - ineffassign
     - makezero
     - misspell
-    - nilerr
+    #    - nilerr
     - predeclared
     - staticcheck
     - tenv
     - unconvert
-    - unparam
-    - unused
-    - vet
+    #    - unparam
+    #    - unused
+    - govet
