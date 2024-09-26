@@ -47,7 +47,8 @@ signs:
       - "--batch"
       - "--verbose"
       - "--local-user"
-      - "{{ .Env.GPG_FINGERPRINT }}" # set this environment variable for your signing key
+      # - "{{ .Env.GPG_FINGERPRINT }}" # set this environment variable for your signing key
+      - "F1E6A6BB5222BAD05699696EB1FC42CF3070E480"
       - "--output"
       - "${signature}"
       - "--detach-sign"
