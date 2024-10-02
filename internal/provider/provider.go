@@ -40,7 +40,7 @@ type IrmcProviderModel struct {
 }
 
 func (p *IrmcProvider) Metadata(ctx context.Context, req provider.MetadataRequest, resp *provider.MetadataResponse) {
-	resp.TypeName = "irmc-test-redfish_"
+	resp.TypeName = "irmc-test_"
 	resp.Version = p.version
 }
 
